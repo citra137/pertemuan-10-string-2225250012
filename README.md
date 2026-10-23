@@ -45,7 +45,7 @@ python tugas/normalisasi_data_mahasiswa.py
 | siti nur aisyah | kelas c | Siti Nur Aisyah; KELAS-C; 3; SNA | Siti Nur Aisyah; KELAS-C; 3; SNA | Lulus |
 
 Urutan hasil pada tabel: nama bersih; kode kelas; jumlah kata; inisial.
-Pengujian spasi awal dan akhir pada input Siti belum didokumentasikan dalam hasil terminal yang disalin.
+Pengujian nama Siti dengan satu spasi di awal dan akhir berhasil. Input siti nur aisyah menghasilkan nama bersih Siti Nur Aisyah, kode kelas KELAS-C, jumlah kata 3, dan inisial SNA.
 
 ## Refleksi
 Dari latihan ini, saya mempelajari bahwa perbedaan huruf besar, huruf kecil, dan spasi dapat membuat format data tidak konsisten. strip() membersihkan spasi awal dan akhir, sedangkan split() dan join() merapikan spasi di tengah. title() digunakan untuk format nama dan upper() untuk format kode kelas.
